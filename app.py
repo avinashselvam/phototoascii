@@ -36,9 +36,9 @@ def process_image(image):
         if 90-22.5 <= angle < 90+22.5 or 270-22.5 <= angle < 270+22.5:
             return '||'
         elif 45-22.5 <= angle < 45+22.5 or 225-22.5 <= angle < 225+22.5:
-            return '/ '
-        elif 135-22.5 <= angle < 135+22.5 or 315-22.5 <= angle < 315+22.5:
             return ' \\'
+        elif 135-22.5 <= angle < 135+22.5 or 315-22.5 <= angle < 315+22.5:
+            return '/ '
         else:
             return '- '
 
